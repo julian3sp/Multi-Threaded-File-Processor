@@ -1,0 +1,53 @@
+Script started on 2024-10-07 17:33:19+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="225" LINES="11"]
+[?2004h]0;student@cs2324: ~/OSProjects/Project4[01;32mstudent@cs2324[00m:[01;34m~/OSProjects/Project4[00m$ make
+[?2004l
+make: 'proj4' is up to date.
+[?2004h]0;student@cs2324: ~/OSProjects/Project4[01;32mstudent@cs2324[00m:[01;34m~/OSProjects/Project4[00m$ ls -1d * | ./proj4
+[?2004l
+Bad Files: 0
+Directories: 1
+Regular Files: 4
+Special Files: 0
+Regular File Bytes: 41532
+Text Files: 3
+Text File Bytes: 3980
+[?2004h]0;student@cs2324: ~/OSProjects/Project4[01;32mstudent@cs2324[00m:[01;34m~/OSProjects/Project4[00m$ ls -1d * | ./proj4 thread 5
+[?2004l
+Bad Files: 0
+Directories: 1
+Regular Files: 4
+Special Files: 0
+Regular File Bytes: 41532
+Text Files: 3
+Text File Bytes: 3980
+[?2004h]0;student@cs2324: ~/OSProjects/Project4[01;32mstudent@cs2324[00m:[01;34m~/OSProjects/Project4[00m$ ls -1d * | ./proj4 thread 15
+[?2004l
+Invalid number of threads. Defaulting to 10.
+Bad Files: 0
+Directories: 1
+Regular Files: 4
+Special Files: 0
+Regular File Bytes: 41532
+Text Files: 3
+Text File Bytes: 3980
+[?2004h]0;student@cs2324: ~/OSProjects/Project4[01;32mstudent@cs2324[00m:[01;34m~/OSProjects/Project4[00m$ ls -1d /run/* | ./proj4 thread 5
+Bad Files: 0
+Directories: 35
+Regular Files: 10
+Special Files: 6
+Regular File Bytes: 1562
+Text Files: 6
+Text File Bytes: 26
+[?2004h]0;student@cs2324: ~/OSProjects/Project4[01;32mstudent@cs2324[00m:[01;34m~/OSProjects/Project4[00m$ ls -1d /dev/* | ./proj4 
+Bad Files: 0
+Directories: 19
+Regular Files: 1
+Special Files: 191
+Regular File Bytes: 140737471590400
+Text Files: 0
+Text File Bytes: 0
+[?2004h]0;student@cs2324: ~/OSProjects/Project4[01;32mstudent@cs2324[00m:[01;34m~/OSProjects/Project4[00m$ exit
+[?2004l
+exit
+
+Script done on 2024-10-07 17:34:56+00:00 [COMMAND_EXIT_CODE="0"]
